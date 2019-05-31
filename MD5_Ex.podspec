@@ -92,6 +92,14 @@ Pod::Spec.new do |spec|
   spec.source_files  = "MD5_Ex/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
+  spec.subspec 'subModel' do |ss|
+    ss.source_files = 'MD5_Ex/subModel/*'
+    ss.subspec 'model' do |sss|
+        sss.source_files = 'MD5_Ex/subModel/model*'
+    end
+  end
+
+
   # spec.public_header_files = "Classes/**/*.h"
 
 
