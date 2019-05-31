@@ -17,16 +17,16 @@ Pod::Spec.new do |spec|
 
   spec.name         = "MD5_Ex"
   spec.version      = "1.0.2"
-  spec.summary      = "A short description of MD5_Ex."
+  spec.summary      = "A userfull of MD5_Ex."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "MD5 扩展"
+  spec.description  = "MD5 扩展 ,NSString扩展类。好用的"
 
-  spec.homepage     = "http://EXAMPLE/MD5_Ex"
+  spec.homepage     = "https://github.com/suzhiqiu/MD5_Ex"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
