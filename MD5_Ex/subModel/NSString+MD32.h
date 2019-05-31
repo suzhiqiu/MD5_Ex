@@ -12,10 +12,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSString (MD5)
+@interface NSString (MD32)
 
 //生成md5
-- (NSString *)sd_md5;
+- (NSString *)sd_md32;
 
 @end
 

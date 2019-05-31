@@ -6,13 +6,13 @@
 //  Copyright © 2019 364121248. All rights reserved.
 //
 
-#import "NSString+MD5.h"
+#import "NSString+MD32.h"
 
-@implementation NSString (MD5)
+@implementation NSString (MD32)
 
 
 //生成md5
-- (NSString *)sd_md5{
+- (NSString *)sd_md32{
     const char *cStr = [self UTF8String];
     unsigned char result[CC_MD5_DIGEST_LENGTH];
     CC_MD5(cStr, (CC_LONG)(strlen(cStr)), result);
