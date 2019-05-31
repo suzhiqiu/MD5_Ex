@@ -89,13 +89,12 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "MD5_Ex/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+
 
   spec.subspec 'subModel' do |ss|
     ss.source_files = 'MD5_Ex/subModel/*'
     ss.subspec 'model' do |sss|
-        sss.source_files = 'MD5_Ex/subModel/model*'
+        sss.source_files = 'MD5_Ex/subModel/model/*'
     end
   end
 
