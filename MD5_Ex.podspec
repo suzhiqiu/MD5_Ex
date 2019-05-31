@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MD5_Ex"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.6"
   spec.summary      = "A userfull of MD5_Ex."
 
   # This description is used to generate tags and improve search results.
